@@ -37,6 +37,21 @@ The code above produces the output shown below:
 
     1234
 
+#### Using a Currency-specific subclass of Money
+
+```javascript
+// Create Money object that represents 1 EUR
+var m = new EUR(100);
+
+// Access the Money object's monetary value
+console.log(m.getAmount());
+```
+
+The code above produces the output shown below:
+
+    100
+
+
 #### Basic arithmetic using Money objects
 
 ```javascript

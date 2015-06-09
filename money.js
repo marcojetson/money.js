@@ -1381,3 +1381,13 @@ Money.prototype.lessThanOrEqual = function (money) {
 Money.prototype.newMoney = function (amount) {
     return new Money(amount, this.currency);
 };
+
+// Currency-specific subclasses of Money
+
+for (var currency in Currency.currencies) {
+    (function (currency) {
+        window[currency] = function (amount) {
+            return new Money(amount, new Currency(currency));
+        };
+    }(currency));    
+}
