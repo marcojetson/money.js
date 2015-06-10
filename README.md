@@ -2,7 +2,15 @@
 
 JavaScript version of Sebastian Bergmann's [Money](https://github.com/sebastianbergmann/money).
 
-## Usage Examples
+## Install
+
+Via bower
+
+```
+bower install money-js
+```
+
+## Usage
 
 #### Creating a Money object and accessing its monetary value
 
