@@ -1,0 +1,8 @@
+{
+  "name": "money",
+  "version": "1.0",
+  "homepage": "https://github.com/marcojetson/money.js",
+  "description": "Value object representing a monetary value using a currency's smallest unit.",
+  "main": "src/money.js",
+  "license": "BSD-3-Clause-Clear"
+}
